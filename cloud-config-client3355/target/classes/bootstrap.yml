@@ -5,11 +5,11 @@ spring:
     name: config-client
   cloud:
     #config 配置
-  config:
-    label : master #分支名称
-    name: config #配置文件名称
-    profile: dev #读取后缀名称
-    uri: http://localhost:3344
+    config:
+      label : master #分支名称
+      name: config #配置文件名称
+      profile: dev #读取后缀名称
+      uri: http://localhost:3344
 
 eureka:
   client:
