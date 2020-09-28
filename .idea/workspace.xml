@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4a6bb7-0ef7-4eec-9a2f-e8dd9a7c6577" name="Default Changelist" comment="" />
+    <list default="true" id="1c4a6bb7-0ef7-4eec-9a2f-e8dd9a7c6577" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/zwlong/springcloud/ConfigCenterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/zwlong/springcloud/ConfigClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/zwlong/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -36,6 +47,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1ggjMXNeLna7JLdSqXT1HaiRegL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -53,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unia3-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud2020-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -302,12 +314,24 @@
       <workItem from="1600097038051" duration="462000" />
       <workItem from="1600179201591" duration="24863000" />
       <workItem from="1600698011464" duration="13228000" />
-      <workItem from="1601040575737" duration="3145000" />
+      <workItem from="1601040575737" duration="9174000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1601046696182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601046696182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="74" key="#Plugins" timestamp="1598713950190">
@@ -346,14 +370,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1598624607008" />
+    <state x="486" y="21" key="CommitChangelistDialog2" timestamp="1601046694306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="21" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601046694306" />
     <state width="449" height="582" key="DebuggerActiveHint" timestamp="1598882672679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="449" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598882672679" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1601044548968">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1601131148187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601044548968" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601131148187" />
     <state width="1359" height="460" key="GridCell.Tab.0.bottom" timestamp="1601044650828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,6 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="344" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601044556860" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1601046817446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601046817446" />
     <state x="425" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599142424352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -422,10 +454,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="400" y="193" width="1120" height="749" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1598627138013" />
-    <state x="316" y="157" key="new project wizard" timestamp="1601043261601">
+    <state x="316" y="157" key="new project wizard" timestamp="1601129080997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="316" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601043261601" />
+    <state x="316" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601129080997" />
     <state x="764" y="235" key="refactoring.ChangeSignatureDialog" timestamp="1598626408127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -434,5 +466,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="134" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600505556505" />
+    <state x="749" y="261" key="svn.repositoryBrowser" timestamp="1601046577272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="261" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1601046577272" />
   </component>
 </project>
