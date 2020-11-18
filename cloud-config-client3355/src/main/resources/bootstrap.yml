@@ -10,6 +10,11 @@ spring:
       name: config #配置文件名称
       profile: dev #读取后缀名称
       uri: http://localhost:3344
+  rabbitmq:
+    host: 49.233.221.89
+    port: 5672
+    username: admin
+    password: admin
 
 eureka:
   client:
@@ -26,3 +31,8 @@ eureka:
   instance:
     instance-id: ${spring.application.name}
     prefer-ip-address: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

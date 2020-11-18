@@ -86,6 +86,11 @@ public class PaymentController {
         return serverPort;
     }
 
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi ,i'am paymentzipkin server fall back ,welcom to zwlong ....";
+    }
+
     public static void main(String[] args) {
         ZonedDateTime zon=ZonedDateTime.now();
         System.out.println(zon);
