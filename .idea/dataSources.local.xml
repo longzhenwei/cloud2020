@@ -15,8 +15,8 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="db2020" uuid="af8797cf-fda6-4740-a5a4-ba08d00d7270">
-      <database-info product="MySQL" version="5.6.47-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="5.6.47" exact-driver-version="8.0">
+    <data-source name="49.233.221.89" uuid="472253ab-5263-4d34-b162-ceb29a1ddd7a">
+      <database-info product="MySQL" version="5.7.26" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="5.7.26" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
@@ -25,7 +25,15 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="nacos_config" />
+            <name qname="db2020" />
+            <name qname="seata" />
+            <name qname="seata_order" />
+            <name qname="seata_storage" />
+            <name qname="seata_account" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

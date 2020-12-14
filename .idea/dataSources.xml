@@ -8,9 +8,10 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.136.146:3306/db2019</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="db2020" uuid="af8797cf-fda6-4740-a5a4-ba08d00d7270">
+    <data-source source="LOCAL" name="49.233.221.89" uuid="472253ab-5263-4d34-b162-ceb29a1ddd7a">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <remarks>49.233.221.89</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://49.233.221.89:3306</jdbc-url>
     </data-source>
